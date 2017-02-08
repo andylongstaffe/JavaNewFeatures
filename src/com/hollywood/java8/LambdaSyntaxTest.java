@@ -1,4 +1,4 @@
-package java8;
+package com.hollywood.java8;
 
 public class LambdaSyntaxTest {
     public static void main(String args[]){

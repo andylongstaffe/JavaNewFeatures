@@ -1,4 +1,4 @@
-package java8;
+package com.hollywood.java8;
 
 /**
  * Created by andrewlongstaffe on 08/02/2017.
