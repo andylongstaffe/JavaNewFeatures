@@ -1,4 +1,4 @@
-package com.hollywood.java8;
+package com.hollywood.java8.lambda;
 
 /**
  * Created by andrewlongstaffe on 09/02/2017.
