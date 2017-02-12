@@ -5,6 +5,8 @@ package com.hollywood.java8.lambda;
  *
  * Lambda vs Anon Inner classes (AICs)
  *
+ * Lambda is the -> sign.
+ *
  * 1. Lambdas implement a functional interface (single method) while inner classes can extend a class or implement an interface with multiple methods
  * 2. Lambdas can access only final and effectively final vars
  * 3. Lambdas have no state

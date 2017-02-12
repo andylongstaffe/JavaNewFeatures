@@ -9,6 +9,8 @@ import java.util.function.Consumer;
  *
  * For cases when a lambda just calls an existing function, ie printing something out. In this case just reference that method name.
  *
+ * Can point to a static or instance method
+ * Arbitrary method within an object (eg a.compareIgnoreCase(b))
  * You can also use ClassName::new as a method ref
  */
 public class MethodReferences {

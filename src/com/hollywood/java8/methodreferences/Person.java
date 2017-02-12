@@ -15,7 +15,11 @@ class Person {
         return height;
     }
 
-    public int compareByAge(Person a, Person b) {
+    public static int compareByAge(Person a, Person b) {
         return new Integer(a.height).compareTo(b.height);
+    }
+
+    public String toString() {
+        return "Person height=" + height;
     }
 }
