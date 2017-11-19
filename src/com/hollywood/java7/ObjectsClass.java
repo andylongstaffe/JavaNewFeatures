@@ -11,7 +11,7 @@ public class ObjectsClass {
 
     private String bar;
     private String baz;
-    private Foo foo;
+    private Foo foo = null;
 
     public String apiCall(String bar, String baz) {
         this.bar = Objects.requireNonNull(bar, "bar must not be null");

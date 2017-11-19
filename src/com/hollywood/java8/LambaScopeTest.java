@@ -8,6 +8,7 @@ public class LambaScopeTest {
     final static String salutation = "Hello! ";
 
     public static void main(String args[]){
+        // Variable accessed outside of function must be final
         GreetingService greetService1 = message -> System.out.println(salutation + message);
         greetService1.sayMessage("Mahesh");
 

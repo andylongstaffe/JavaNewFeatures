@@ -21,13 +21,11 @@ public class LambdaSyntaxTest {
         System.out.println("10 x 5 = " + tester.operate(10, 5, multiplication));
         System.out.println("10 / 5 = " + tester.operate(10, 5, division));
 
-        //with parenthesis
-        GreetingService greetService1 = message ->
-                System.out.println("Hello " + message);
+        //without parentheses
+        GreetingService greetService1 = message -> System.out.println("Hello " + message);
 
-        //without parenthesis
-        GreetingService greetService2 = (message) ->
-                System.out.println("Hello " + message);
+        //with parentheses
+        GreetingService greetService2 = (message) -> System.out.println("Hello " + message);
 
         greetService1.sayMessage("Mahesh");
         greetService2.sayMessage("Suresh");
