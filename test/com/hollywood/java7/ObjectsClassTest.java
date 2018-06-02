@@ -25,5 +25,4 @@ public class ObjectsClassTest {
         Assert.assertEquals("bar=hey baz=there foo=null", test.toString());
     }
 
-
 }
