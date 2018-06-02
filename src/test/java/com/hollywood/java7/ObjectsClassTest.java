@@ -1,5 +1,6 @@
 package com.hollywood.java7;
 
+import com.hollywood.java7.ObjectsClass;
 import org.junit.Assert;
 import org.junit.Test;
 
