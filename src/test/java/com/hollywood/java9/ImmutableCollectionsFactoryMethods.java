@@ -8,6 +8,13 @@ import java.util.Set;
 
 public class ImmutableCollectionsFactoryMethods {
 
+    /**
+     * These collections:
+     *      are immutable
+     *      do not allow nulls
+     *      are serializable
+     */
+
     @Test(expected = UnsupportedOperationException.class)
     public void immutable() {
         List<String> names = List.of("Henry", "Max", "Maud");
