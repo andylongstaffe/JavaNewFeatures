@@ -6,6 +6,8 @@ Project to play about with new language features in Java SDK
 New features section in Tutorials Point
 https://www.tutorialspoint.com/java8/java8_overview.htm
 
+TODO: More real world examples with futures.
+
 ## Java 9
 Feature overview at https://dzone.com/articles/java-9-its-heeeere
 

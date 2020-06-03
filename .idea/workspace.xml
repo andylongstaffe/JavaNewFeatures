@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="41a38a10-cf48-4f90-9dad-ba0a42dca2d0" name="Default" comment="Fix stuff.">
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/hollywood/java8/MapVsFlatMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hollywood/java8/MapVsFlatMap.java" afterDir="false" />
+    <list default="true" id="41a38a10-cf48-4f90-9dad-ba0a42dca2d0" name="Default" comment="Update git ignore.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hollywood/java8/CompletableFutureTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hollywood/java8/CompletableFutureTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +80,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MapVsFlatMap.flatMap">
+  <component name="RunManager" selected="JUnit.CompletableFutureTest.traditonalExceptionHandling">
     <configuration default="true" type="CucumberRunConfigurationType" factoryName="Cucumber">
       <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
       <module name="" />
@@ -514,6 +516,25 @@
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method v="2" />
     </configuration>
+    <configuration name="CompletableFutureTest.handleExceptionsAsync" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaNewFeatures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hollywood.java8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hollywood.java8" />
+      <option name="MAIN_CLASS_NAME" value="com.hollywood.java8.CompletableFutureTest" />
+      <option name="METHOD_NAME" value="handleExceptionsAsync" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea --add-modules=jdk.incubator.httpclient" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CompletableFutureTest.name" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaNewFeatures" />
       <extension name="coverage">
@@ -552,7 +573,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CompletableFutureTest.simpleFuture" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CompletableFutureTest.traditonalExceptionHandling" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaNewFeatures" />
       <extension name="coverage">
         <pattern>
@@ -562,26 +583,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.hollywood.java8" />
       <option name="MAIN_CLASS_NAME" value="com.hollywood.java8.CompletableFutureTest" />
-      <option name="METHOD_NAME" value="simpleFuture" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea --add-modules=jdk.incubator.httpclient" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CompletableFutureTest.simpleFutureWithCancel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaNewFeatures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hollywood.java8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.hollywood.java8" />
-      <option name="MAIN_CLASS_NAME" value="com.hollywood.java8.CompletableFutureTest" />
-      <option name="METHOD_NAME" value="simpleFutureWithCancel" />
+      <option name="METHOD_NAME" value="traditonalExceptionHandling" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea --add-modules=jdk.incubator.httpclient" />
       <option name="PARAMETERS" value="" />
@@ -658,19 +660,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.CompletableFutureTest.simpleFuture" />
-      <item itemvalue="JUnit.CompletableFutureTest.simpleFutureWithCancel" />
       <item itemvalue="JUnit.CompletableFutureTest.name" />
       <item itemvalue="JUnit.CompletableFutureTest.runnable" />
       <item itemvalue="JUnit.MapVsFlatMap.flatMap" />
+      <item itemvalue="JUnit.CompletableFutureTest.handleExceptionsAsync" />
+      <item itemvalue="JUnit.CompletableFutureTest.traditonalExceptionHandling" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CompletableFutureTest.traditonalExceptionHandling" />
+        <item itemvalue="JUnit.CompletableFutureTest.handleExceptionsAsync" />
         <item itemvalue="JUnit.MapVsFlatMap.flatMap" />
         <item itemvalue="JUnit.CompletableFutureTest.runnable" />
         <item itemvalue="JUnit.CompletableFutureTest.name" />
-        <item itemvalue="JUnit.CompletableFutureTest.simpleFutureWithCancel" />
-        <item itemvalue="JUnit.CompletableFutureTest.simpleFuture" />
       </list>
     </recent_temporary>
   </component>
@@ -695,7 +697,7 @@
       <workItem from="1534922431617" duration="166000" />
       <workItem from="1590488582592" duration="181000" />
       <workItem from="1590488781899" duration="3113000" />
-      <workItem from="1590746030132" duration="17073000" />
+      <workItem from="1590746030132" duration="19224000" />
     </task>
     <task id="LOCAL-00001" summary="Fix stuff.">
       <created>1527950203945</created>
@@ -739,7 +741,28 @@
       <option name="project" value="LOCAL" />
       <updated>1591178684782</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Java 8.">
+      <created>1591178704062</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1591178704062</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Tidy up module projects.">
+      <created>1591178746154</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1591178746154</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Update git ignore.">
+      <created>1591178786163</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1591178786163</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -772,7 +795,10 @@
     <MESSAGE value="Started Java 9 New features." />
     <MESSAGE value="Java 8 and 9 features." />
     <MESSAGE value="Need to ensure these are ignored in future..." />
-    <option name="LAST_COMMIT_MESSAGE" value="Need to ensure these are ignored in future..." />
+    <MESSAGE value="Java 8." />
+    <MESSAGE value="Tidy up module projects." />
+    <MESSAGE value="Update git ignore." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update git ignore." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -13,6 +13,7 @@ import static org.junit.Assert.assertEquals;
 
 // Extension of Future interface introduced in Java 5
 // Part of ConcurrencyApi improvements
+// Async postfix will run exec in a different thread (default if no executor is passed is fork/join pool
 public class CompletableFutureTest {
 
     class CompletableFutureInstance {
@@ -100,5 +101,56 @@ public class CompletableFutureTest {
                 .thenCompose(s -> CompletableFuture.supplyAsync(() -> s + " World"));
 
         assertEquals("Hello World", completableFuture.get());
+    }
+
+    // error handling
+
+
+    @Test
+    public void handleExceptionsAsync() throws Exception {
+        String name = null;
+
+        // ...
+
+        CompletableFuture<String> completableFuture =  CompletableFuture
+                .supplyAsync(() -> {
+                    if (name == null) {
+                        throw new RuntimeException("Computation error!");
+                    }
+                    return "Hello, " + name;
+                })
+                .handle((s, t) -> {
+                    if (t != null) {
+                        System.out.println("An error occurred dude");
+                        t.printStackTrace();
+                        return "Hello, Stranger!";
+                    }
+                    return s;
+                });
+
+        assertEquals("Hello, Stranger!", completableFuture.get());
+    }
+
+    @Test
+    public void traditonalExceptionHandling() {
+        String name = null;
+        CompletableFuture<String> completableFuture =  CompletableFuture
+                .supplyAsync(() -> {
+                    if (name == null) {
+                        throw new RuntimeException("Computation error!");
+                    }
+                    return "Hello, " + name;
+                });
+
+        // this gives us a more traditional synchronous method of error handling
+        completableFuture.completeExceptionally(new RuntimeException("Some error occurred!"));
+
+        try {
+            completableFuture.get();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        } catch (ExecutionException e) {
+            e.printStackTrace();
+        }
     }
 }
