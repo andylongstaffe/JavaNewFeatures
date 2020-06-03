@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/JavaModuleApp/JavaModuleApp.iml" filepath="$PROJECT_DIR$/JavaModuleApp/JavaModuleApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/JavaNewFeatures.iml" filepath="$PROJECT_DIR$/.idea/JavaNewFeatures.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaModuleApp/ModuleOne/ModuleOne.iml" filepath="$PROJECT_DIR$/JavaModuleApp/ModuleOne/ModuleOne.iml" />
       <module fileurl="file://$PROJECT_DIR$/ModuleTwo/ModuleTwo.iml" filepath="$PROJECT_DIR$/ModuleTwo/ModuleTwo.iml" />
