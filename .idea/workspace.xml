@@ -2,26 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41a38a10-cf48-4f90-9dad-ba0a42dca2d0" name="Default" comment="Fix stuff.">
-      <change afterPath="$PROJECT_DIR$/JavaModuleApp/JavaModuleApp.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaModuleApp/ModuleOne/ModuleOne.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaModuleApp/ModuleOne/src/com/hollywood/one/ModuleOneRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ModuleTwo/ModuleTwo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ModuleTwo/src/main/java/com/hollywood/two/ModuleTwoRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestModule/TestModule.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestModule/src/TestRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/hollywood/java8/CompletableFutureTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/hollywood/java8/MapVsFlatMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/hollywood/java9/NewHttpClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/hollywood/java9/modules.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/JavaNewFeatures.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JavaNewFeatures.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/hollywood/java8/FunctionalProgramming.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hollywood/java8/FunctionalProgramming.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/hollywood/java9/features.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hollywood/java9/features.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hollywood/java8/MapVsFlatMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hollywood/java8/MapVsFlatMap.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -714,7 +695,7 @@
       <workItem from="1534922431617" duration="166000" />
       <workItem from="1590488582592" duration="181000" />
       <workItem from="1590488781899" duration="3113000" />
-      <workItem from="1590746030132" duration="16814000" />
+      <workItem from="1590746030132" duration="17073000" />
     </task>
     <task id="LOCAL-00001" summary="Fix stuff.">
       <created>1527950203945</created>
@@ -744,7 +725,21 @@
       <option name="project" value="LOCAL" />
       <updated>1590490908667</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Java 8 and 9 features.">
+      <created>1591178576637</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1591178576637</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Need to ensure these are ignored in future...">
+      <created>1591178684782</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1591178684782</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -775,7 +770,9 @@
     <MESSAGE value="git ignore" />
     <MESSAGE value="Fix stuff." />
     <MESSAGE value="Started Java 9 New features." />
-    <option name="LAST_COMMIT_MESSAGE" value="Started Java 9 New features." />
+    <MESSAGE value="Java 8 and 9 features." />
+    <MESSAGE value="Need to ensure these are ignored in future..." />
+    <option name="LAST_COMMIT_MESSAGE" value="Need to ensure these are ignored in future..." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
