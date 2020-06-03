@@ -14,6 +14,10 @@ import java.util.stream.Stream;
 
 /**
  * Created by andylongstaffe on 19/11/2017.
+ *
+ * Supplier T get()
+ * Function T apply(V)
+ * Consumer void accept(V)
  */
 public class FunctionalProgramming {
 
