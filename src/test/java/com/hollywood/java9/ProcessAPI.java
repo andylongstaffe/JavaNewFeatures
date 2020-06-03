@@ -2,8 +2,6 @@ package com.hollywood.java9;
 
 import org.junit.Test;
 
-import java.util.stream.Collectors;
-
 public class ProcessAPI {
 
     @Test

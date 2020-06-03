@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="41a38a10-cf48-4f90-9dad-ba0a42dca2d0" name="Default" comment="Update git ignore.">
+    <list default="true" id="41a38a10-cf48-4f90-9dad-ba0a42dca2d0" name="Default" comment="Finish future stuff.">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/hollywood/java9/ImmutableCollectionsFactoryMethods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/hollywood/java8/CompletableFutureTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hollywood/java8/CompletableFutureTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hollywood/java9/NewHttpClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hollywood/java9/NewHttpClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hollywood/java9/ProcessAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hollywood/java9/ProcessAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hollywood/java9/features.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hollywood/java9/features.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +83,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CompletableFutureTest.traditonalExceptionHandling">
+  <component name="RunManager" selected="JUnit.ImmutableCollectionsFactoryMethods.immutable">
     <configuration default="true" type="CucumberRunConfigurationType" factoryName="Cucumber">
       <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
       <module name="" />
@@ -535,44 +538,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CompletableFutureTest.name" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaNewFeatures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hollywood.java8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.hollywood.java8" />
-      <option name="MAIN_CLASS_NAME" value="com.hollywood.java8.CompletableFutureTest" />
-      <option name="METHOD_NAME" value="name" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea --add-modules=jdk.incubator.httpclient" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CompletableFutureTest.runnable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaNewFeatures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hollywood.java8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.hollywood.java8" />
-      <option name="MAIN_CLASS_NAME" value="com.hollywood.java8.CompletableFutureTest" />
-      <option name="METHOD_NAME" value="runnable" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea --add-modules=jdk.incubator.httpclient" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CompletableFutureTest.traditonalExceptionHandling" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaNewFeatures" />
       <extension name="coverage">
@@ -584,6 +549,25 @@
       <option name="PACKAGE_NAME" value="com.hollywood.java8" />
       <option name="MAIN_CLASS_NAME" value="com.hollywood.java8.CompletableFutureTest" />
       <option name="METHOD_NAME" value="traditonalExceptionHandling" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea --add-modules=jdk.incubator.httpclient" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ImmutableCollectionsFactoryMethods.immutable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaNewFeatures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hollywood.java9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hollywood.java9" />
+      <option name="MAIN_CLASS_NAME" value="com.hollywood.java9.ImmutableCollectionsFactoryMethods" />
+      <option name="METHOD_NAME" value="immutable" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea --add-modules=jdk.incubator.httpclient" />
       <option name="PARAMETERS" value="" />
@@ -630,6 +614,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NewHttpClient.executorForAsyncCalls" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaNewFeatures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hollywood.java9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hollywood.java9" />
+      <option name="MAIN_CLASS_NAME" value="com.hollywood.java9.NewHttpClient" />
+      <option name="METHOD_NAME" value="executorForAsyncCalls" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea --add-modules=jdk.incubator.httpclient" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="MAIN_CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
@@ -660,19 +663,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.CompletableFutureTest.name" />
-      <item itemvalue="JUnit.CompletableFutureTest.runnable" />
       <item itemvalue="JUnit.MapVsFlatMap.flatMap" />
       <item itemvalue="JUnit.CompletableFutureTest.handleExceptionsAsync" />
       <item itemvalue="JUnit.CompletableFutureTest.traditonalExceptionHandling" />
+      <item itemvalue="JUnit.NewHttpClient.executorForAsyncCalls" />
+      <item itemvalue="JUnit.ImmutableCollectionsFactoryMethods.immutable" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ImmutableCollectionsFactoryMethods.immutable" />
+        <item itemvalue="JUnit.NewHttpClient.executorForAsyncCalls" />
         <item itemvalue="JUnit.CompletableFutureTest.traditonalExceptionHandling" />
         <item itemvalue="JUnit.CompletableFutureTest.handleExceptionsAsync" />
         <item itemvalue="JUnit.MapVsFlatMap.flatMap" />
-        <item itemvalue="JUnit.CompletableFutureTest.runnable" />
-        <item itemvalue="JUnit.CompletableFutureTest.name" />
       </list>
     </recent_temporary>
   </component>
@@ -697,7 +700,7 @@
       <workItem from="1534922431617" duration="166000" />
       <workItem from="1590488582592" duration="181000" />
       <workItem from="1590488781899" duration="3113000" />
-      <workItem from="1590746030132" duration="19224000" />
+      <workItem from="1590746030132" duration="21708000" />
     </task>
     <task id="LOCAL-00001" summary="Fix stuff.">
       <created>1527950203945</created>
@@ -762,7 +765,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591178786163</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Finish future stuff.">
+      <created>1591180867979</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1591180867979</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -798,14 +808,15 @@
     <MESSAGE value="Java 8." />
     <MESSAGE value="Tidy up module projects." />
     <MESSAGE value="Update git ignore." />
-    <option name="LAST_COMMIT_MESSAGE" value="Update git ignore." />
+    <MESSAGE value="Finish future stuff." />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish future stuff." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/hollywood/java9/ProcessAPI.java</url>
-          <line>17</line>
+          <line>15</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

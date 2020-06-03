@@ -3,8 +3,9 @@
 * Released Sept 2017
 * Modules is the headline feature (JPMS)
 * Improvements to Process API
-* JShell
+* JShell (interactive command line tool)
 * Private methods in interfaces
+* Improved logging in JDK ad JVM via logging framework of choice (intended for use by JDK only)
 
 ### Modules
 
@@ -27,11 +28,17 @@ module test {
 }
 ```
 
-
-
 ### Process API
 
+Easier to get info on java processes (ProcessHandle)
 
+Java 5 added ProcessBuilder for spawning new processes.
+
+### Collection API updates
+
+Factory methods for immutable collections such as list, set and map. 
+* List.of, Set.of, Map.ofEntries
+* Map.entry
 
 ### Other changes
 

@@ -4,12 +4,14 @@ import jdk.incubator.http.HttpClient;
 import jdk.incubator.http.HttpRequest;
 import jdk.incubator.http.HttpResponse;
 import org.junit.Test;
+import org.w3c.dom.ls.LSOutput;
 
 import java.net.URI;
 import java.nio.file.Paths;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+import java.util.stream.Stream;
 
 public class NewHttpClient {
 
@@ -46,6 +48,8 @@ public class NewHttpClient {
                 .build()
                 .sendAsync(request, HttpResponse.BodyHandler.asString());
 
-        // TODO
+        response1.get().headers().map().entrySet().forEach(me -> System.out.println(me.getKey() + "-->" + me.getValue()));
+        System.out.println("===");
+        System.out.println(response1.get().body());
     }
 }
