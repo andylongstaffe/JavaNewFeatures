@@ -1,4 +1,0 @@
-module JavaNewFeaturesTest {
-    requires jdk.incubator.httpclient;
-    //requires junit;
-}
